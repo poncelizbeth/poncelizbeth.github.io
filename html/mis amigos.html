@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mis amigos</title>
+<link href="../CSS/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+	*{	
+		margin: 0 auto;
+	}
+	
+	body{
+		background-image: url("../media/52563599528_6299d221c5_c.jpg");
+		}
+	a{
+		background-color: black;
+		margin: 112px;
+		color: aliceblue;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 20px;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+		text-decoration: none;
+	}
+	a:link{
+		color: aliceblue;
+	}
+	a: visited{
+		color: #CAD92D;
+	}
+	a:hover{
+		color: aqua;
+	}
+	a:active{
+		color: chartreuse;
+	}
+	main{
+		width: 1400px;
+		height: auto;
+		background-color: darkseagreen;
+		align-content: center;
+		padding: 50px;
+		text-align: justify-all;
+		border-bottom-left-radius: 40px;
+		border-bottom-right-radius: 40px;
+	}
+	section{
+		width: 950px;
+		height: auto;
+		background-color: cornsilk;
+		padding: 40px;
+		margin-top:20px;
+		border-radius: 8px;
+	}
+	h1{
+		width: 950px;
+		height: 50px;
+		background-color:yellow;
+		text-align: center;
+		padding-top:10px;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		border-radius: 10px;
+		color: black;
+		font-size: 40px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		}
+	footer{
+		width: 500px;
+		height: 50px;
+		background-color: yellow;
+		text-align: center;
+		margin-top:10px;
+		font-size: 17px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		padding-top:25px;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+	}
+table{
+		width: 80%;
+		margin-top: 20px;
+		border-collapse: collapse;
+		}
+	thead th{
+		width: 10px;
+		height: 50px;
+		background-color: darkorange;
+		color: black;
+		font-size: 28px;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-align: center;
+		padding: 10px;
+		}
+	tr:hover{
+		background: #BC0E11;
+	}
+	td,th{
+		border: 5px solid #F4F4F4;
+		background: #D7B813;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 19px;
+		padding: 15px;
+		text-align: center;
+		color: black;
+	}
+		#Jimmy1, #Isma2, #Niza3{
+		width: 200px;
+		display: block;
+		border-radius: 15px;
+	}
+	#Ismo,#Fercho,#Jim,#Nizawas{
+		width: 70px;
+		height: 70px;
+		border-radius: 5px;
+	}
+	p{
+		margin: 20px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		padding: 20px;
+		font-size: 18px;
+	}
+	#costumers td, #costumers th{
+		border: 10px solid #DFD4E0;
+		padding: 40px;
+	}
+	#costumers tr:nth-child(even){
+		background-color:aqua; 
+	}
+	#costumers tr:hover{background-color: blueviolet;}	
+	}
+</style>
+<main>
+	<h1>Mis amigos</h1>
+<nav>
+	<a href="Quien_soy.html" target="_self">Quién Soy</a>
+	<a href="Mifamilia.html" target="_self">Mi familia</a>
+	<a href="Mis hobbies.html" target="_self">Mis hobbies</a>
+	<a href="mi musica favorita.html" target="_self">Mi música favorita</a>
+</nav>
+<body>
+	<table id="costumers">
+		<thead>
+			<th>Foto</th>
+			<th>Nombre</th>
+			<th>Edad</th>
+			<th>Email</th>
+			<th>Descripción</th>
+		</thead>
+	<tbody>
+		<tr>
+			<td>
+				<img class="animate__animated animate__zoomIn animate__delay-#3s"
+					 id="Ismo" src="../media/solo.jpeg" alt="Ismo en un bar">
+			</td>
+			<td>Ismael Alba León</td>
+			<td>24</td>
+			<td>Ismael@hotmail.com</td>
+			<td>Es muy chido y muy alto y me cae bien</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="animate__animated animate__backInDown"
+					 id="Fercho" src="../media/fer.jpeg" alt="Fer en un bar">
+			</td>
+			<td>Fernando Vázquez Sánchez</td>
+			<td>23</td>
+			<td>Fercho@hotmail.com</td>
+			<td>Es tímido pero no tanto y es bien cariñoso</td>
+		</tr>
+		<tr>
+			<td>
+			<img class="animate__animated animate__backInUp"
+				 
+				 id="Jim" src="../media/jims.jpeg" alt="Selfie Jaime en la Estrella">
+			</td>
+			<td>Jaime Padilla Sánchez</td>
+			<td>24</td>
+			<td>Jaime@hotmail.com</td>
+			<td>Es cotizado pero con sus amigos es un real</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="animate__animated animate__zoomIn"
+					 id="Nizawas" src="../media/niza.jpg" alt="Selfie en espejo de Niza">
+			</td>
+			<td>Niza Guadalupe Toledo Ramos</td>
+			<td>24</td>
+			<td>Niza@hotmail.com</td>
+			<td>Es mi única mejor amiga mujer del grupo jaja y hacemos pijamadas y comemos y picnics</td>
+		</tr>
+	</tbody>
+	</table>
+	
+<section>
+	<p>Mis mejores amigos son 4, los cuales he conocido en la carrera, por ejemplo Jaime Padilla o como nosotros le llamamos "Jimmy", es foráneo jaja vive en Zacatlán pero decidió estudiar en la BUAP. Cuuriosamente nos hicimos amigos desde el primer día de escuela, estábamos en clase de taller con una profesora llamada Alethia y pues le pedí material prestado y desde ahí empezamos a platicar jaja. 
+	Nos ha llevado a Zacatlán, a casa de sus padres, ya que a nosotros nos gusta viajar. 
+	El mismo día que hice amistad con Jimmy, él tenía una revista la cual llamó mucho mi atención y me dijo que no era de el, sino de otro chico que estaba sentado detrás de nosotros. Me dijo que no la   podìamos recortar. Decidí voltear y pedir la revista y es ahí cuando conocí a mi amigo Fernando Vazquez, o como yo le digo "La Fercha" jaja, era muy tímido pero ya agarrando confianza, somos otros jaja. 
+	Me cayeron súper bien y ahora son mis amigos en la actualidad, compartimos momentos, comemos pizza en mi casa, salimos, etc.</p>
+	
+	<img class="animate__animated animate__zoomIn animate__delay-#3s"
+		 id="Jimmy1" src="../media/jimmy-fer-yo.jpeg" alt="Foto de Fer, yo y Jimmy en la estrella de Puebla">
+	
+	<p>Semestres después, yo veía a un chico el cual consideraba muy "friki" jaja y pensaba que no me iba a llevar con él en ningún momento de mi vida, sin embargo, hubo esa chispa que, de  su círculo de amigos, fue con én con quien congenie mejor. Su nombre es Ismael Alba, o como yo le digo "Itsmo" jaja me encanta ponerles sobrenombres, y ellos no me los ponen a mi jaja. Se me hizo muy gracioso y decidí que quería ser su amiga, tiempo después, nos hicimos súper amigos. Ahora cuando podemos, salimos juntos los 4 jaja.</p> 
+	<img id="Isma2" src="../media/isma.jpeg" alt="Isma y yo en un bar">
+	<p>Por último y no menos importante, que cabe resaltar que mi orden es "cronológico" ya que así fui conociendo a mis amigos. A pesar de que íbamos juntas en la carrera, realmente nunca y literalmente nunhca, sin sonar exagerada, cruzamos palabras, a pesar de que incluso estábamos en clases juntas y en equipos iguales jaja no nos hablamos. Eso sucedió tiempo después cuando estábamos en la época de pandemia, gracias a las redes sociales es como dimos una con otra, nos gustó lo que compartimos y nos hablamos. El primer día que nos vimos, platicamos como si  nos conociéramos de años. Hicimos un match y ahora somos súper buenaas amigas. Ella se llama Niza Guadalupe o como yo le digo "Nizawas" jjajaja. </p>
+	<img id="Niza3" src="../media/IMG-20230717-WA0074.jpg" alt="Niza y yo una selfie en un espejo">
+	</section>
+	</body>
+	</main>
+	<footer>Lizbeth Ponce Pérez</footer>
+</html>
